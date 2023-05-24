@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
+:root {
+   --font-style: 'Roboto', sans-serif;
+}
+
+body {
+   font-family: var(--font-style);
+}
+
+body {
+   background-color: rgb(80, 0, 0);
+   color: white;
+   margin: auto;
+}
+
+.m {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    display: table;
+    vertical-align: bottom;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.left {
+    display: table-cell;
+    padding: 30px;
+}
+
+.right {
+    display: table-cell;
+}
+
+.counter {
+    position: relative;
+    background-color: dimgray;
+    height: 300px;
+    width: 450px;
+}
+
+.counter h1 {
+    font-size: 100px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+}
+
+.counter .add {
+        background-color: black;
+        color: white;
+        padding: 15px 32px;
+        font-size: 30px;
+        border-style: groove;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 50%;
+}
+
+.counter .sub {
+    background-color: black;
+    color: white;
+    padding: 15px 32px;
+    font-size: 30px;
+    border-style: groove;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+}
+
+.counter .countername {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    border: none;
+}
+
+.ctrls {
+    background-color: rgba(0, 0, 0, 0);
+    position:absolute;
+    bottom:0;
+    right:0;
+    height: 50px;
+    width: 200px;
+}
